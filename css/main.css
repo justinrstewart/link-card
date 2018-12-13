@@ -1,10 +1,14 @@
 html {
+  box-sizing: border-box;
   background-color: #f0eee8;
-  box-sizing: inherit;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.link-card a:hover {
+  background-color: #cabdb2;
 }
 
 .link-card a {
@@ -14,10 +18,15 @@ html {
   max-width: 20em;
   padding: 1em;
   padding-top: 1.4em;
-  background-color: #dcd4cd;
   border: 3px solid #785439;
   border-radius: 10px;
   text-align: left;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
 }
 
 body {
@@ -27,7 +36,7 @@ body {
 }
 
 a .btn {
-  color: white;
+  color: #fff;
   background-color: #785439;
   font-family: sans-serif;
   display: block;
@@ -37,5 +46,24 @@ a .btn {
   width: 8em;
   margin: auto;
   padding: .4em .75em .5em;
-  border-radius: 8px;
+  border-radius: 4px;
+}
+
+p {
+  color: #512200;
+  font: 100%/1 Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+  margin-bottom: 0;
+  text-decoration: none;
+  padding-top: .3em;
+}
+
+a {
+  text-decoration: none;
+  color: #512200;
+}
+
+a.link-card {
+  display: inline-block;
 }

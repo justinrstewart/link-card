@@ -25,3 +25,17 @@ body {
   font-family: Georgia;
   line-height: 1.5;
 }
+
+a .btn {
+  color: white;
+  background-color: #785439;
+  font-family: sans-serif;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 8em;
+  margin: auto;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
+}

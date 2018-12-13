@@ -1,0 +1,27 @@
+html {
+  background-color: #f0eee8;
+  box-sizing: inherit;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card a {
+  background-color: #dcd4cd;
+  display: inline-block;
+  margin: 0;
+  max-width: 20em;
+  padding: 1em;
+  padding-top: 1.4em;
+  background-color: #dcd4cd;
+  border: 3px solid #785439;
+  border-radius: 10px;
+  text-align: left;
+}
+
+body {
+  background-color: #f0eee8;
+  font-family: Georgia;
+  line-height: 1.5;
+}
